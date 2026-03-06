@@ -1,0 +1,15 @@
+# Jekyll Configuration for GitHub Pages
+
+# Site settings
+url: "https://<USERNAME>.github.io/<REPOSITORY>"
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
